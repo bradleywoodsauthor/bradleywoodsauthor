@@ -177,13 +177,6 @@
         width: 75%;
         margin-bottom: 20px;
         margin-left: 0; } }
-    .top-banner__inner .top-banner__text p {
-      margin-bottom: 42px;
-      color: #777; }
-      @media (max-width: 768px) {
-        .top-banner__inner .top-banner__text p {
-          margin-bottom: 25px;
-          font-size: 14px; } }
   .top-banner__inner .top-banner__h2 {
     font-size: 74px;
     letter-spacing: 3px;
@@ -227,6 +220,11 @@
 .brand-span {
   font-size: 24px;
   color: #c18f59; }
+
+  .brand-span p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #c18f59; }
 
 .brand-span h6 {
   font-size: 18px;
@@ -825,7 +823,7 @@ footer {
       t } }
 
 .contact {
-  margin-top: 20%;
+  margin-top: 10%;
   color: white;
   font-size: 20px;
 }
