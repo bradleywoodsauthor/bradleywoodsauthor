@@ -174,7 +174,7 @@
         margin-left: 20px; } }
     @media (max-width: 520px) {
       .top-banner__inner .top-banner__text {
-        width: 65%;
+        width: 75%;
         margin-bottom: 20px;
         margin-left: 0; } }
     .top-banner__inner .top-banner__text p {
@@ -202,13 +202,14 @@
         margin-top: 0; } }
   .top-banner__inner .top-banner__text-down {
     margin-bottom: 20px;
-    padding-left: 17%; }
+    }
     .top-banner__inner .top-banner__text-down .top-banner__h2 {
       margin-bottom: 10px; }
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text-down .top-banner__h2 {
           margin-bottom: 0; } }
   .top-banner__inner .top-banner__image {
+    border: 5px white solid;
     font-size: 0; }
     @media (max-width: 1250px) {
       .top-banner__inner .top-banner__image {
@@ -217,7 +218,7 @@
           width: 100%; } }
     @media (max-width: 520px) {
       .top-banner__inner .top-banner__image {
-        width: 65%;
+        width: 75%;
         margin-bottom: 20px; } }
   @media (max-width: 520px) {
     .top-banner__inner {
@@ -226,6 +227,13 @@
 .brand-span {
   font-size: 24px;
   color: #c18f59; }
+
+.brand-span h6 {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: #c18f59; }
+
 
   .brand-span a {
   font-size: 16px;
@@ -417,7 +425,6 @@
   .fh5co-books .books-brand-button {
     text-align: center; }
     .fh5co-books .books-brand-button .brand-button {
-      font-size: 16px;
       text-transform: none;
       border-color: #c18f59; }
       .fh5co-books .books-brand-button .brand-button:hover {
