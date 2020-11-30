@@ -32,7 +32,7 @@
   margin: 0 auto; }
   @media (max-width: 1250px) {
     .site-container {
-      width: 90%; } }
+      width: 100%; } }
 
 .universal-h2 {
   font-size: 48px;
@@ -43,7 +43,7 @@
       font-size: 38px; } }
   @media (max-width: 668px) {
     .universal-h2 {
-      font-size: 30px; } }
+      font-size: 35px; } }
 
 .universal-h2-bckg {
   background-image: url("../images/double-line.svg");
@@ -174,17 +174,16 @@
         margin-left: 20px; } }
     @media (max-width: 520px) {
       .top-banner__inner .top-banner__text {
-        width: 75%;
+        width: 95%;
         margin-bottom: 20px;
         margin-left: 0; } }
   .top-banner__inner .top-banner__h2 {
-    font-size: 74px;
-    letter-spacing: 3px;
+    font-size: 58px;
     color: #fff;
     font-family: "Calisto-MT-Bold"; }
     @media (max-width: 1250px) {
       .top-banner__inner .top-banner__h2 {
-        font-size: 50px; } }
+        font-size: 45px; } }
     @media (max-width: 768px) {
       .top-banner__inner .top-banner__h2 {
         font-size: 35px; } }
@@ -196,8 +195,7 @@
   .top-banner__inner .top-banner__text-down {
     margin-bottom: 20px;
     }
-    .top-banner__inner .top-banner__text-down .top-banner__h2 {
-      margin-bottom: 10px; }
+    .top-banner__inner .top-banner__text-down .top-banner__h2
       @media (max-width: 768px) {
         .top-banner__inner .top-banner__text-down .top-banner__h2 {
           margin-bottom: 0; } }
@@ -211,7 +209,7 @@
           width: 100%; } }
     @media (max-width: 520px) {
       .top-banner__inner .top-banner__image {
-        width: 75%;
+        width: 95%;
         margin-bottom: 20px; } }
   @media (max-width: 520px) {
     .top-banner__inner {
@@ -219,31 +217,30 @@
 
 .brand-span {
   font-size: 24px;
-  color: #c18f59; }
+  color: #fff; }
 
   .brand-span p {
-    font-size: 16px;
+    font-size: 18px;
     margin-bottom: 10px;
-    color: #c18f59; }
+    color: #fff; }
 
 .brand-span h6 {
   font-size: 18px;
-  margin-top: 10px;
-  margin-bottom: 20px;
-  color: #c18f59; }
+  margin-bottom: 12px;
+  color: #fff; }
 
 
   .brand-span a {
   font-size: 16px;
-  color: #c18f59; }
+  color: #4CC3E3; }
 
   .brand-span-link a {
   font-size: 16px;
-  color: #c18f59; }
+  color: #4CC3E3; }
 
   .brand-span-link a {
       font-size: 24px;
-      color: #c18f59;
+      color: #4CC3E3;
   }
 
 .brand-button {
@@ -358,7 +355,7 @@
       font-family: "Calisto-MT-Bold"; }
       @media (max-width: 992px) {
         .portfolio-wrapper .portfolio__name span {
-          font-size: 65px;
+          font-size: 60px;
           line-height: 62px; } }
   .portfolio-wrapper p {
     padding: 0 10%;
@@ -823,7 +820,7 @@ footer {
       t } }
 
 .contact {
-  margin-top: 10%;
+  margin-top: 10px;
   color: white;
   font-size: 20px;
 }
