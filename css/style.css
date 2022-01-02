@@ -236,7 +236,7 @@
 
   .brand-span-link a {
   font-size: 16px;
-  color: #4CC3E3; }
+  color: #4CC3E3; text-decoration: none; }
 
   .brand-span-link a {
       font-size: 24px;
