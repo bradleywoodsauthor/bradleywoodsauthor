@@ -314,6 +314,11 @@
       .about-me-slider .slick-next {
         right: 34%; } }
 
+  .review {
+      font-size:18px;
+      margin-bottom: 5px;
+   }
+
 .span-arrow {
   padding: 10px 15px;
   cursor: pointer;
