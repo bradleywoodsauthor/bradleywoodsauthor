@@ -502,7 +502,10 @@ h1, h2, h3, h4, h5,
 
 
 .bg-light {
-	background: #f5f4fb!important;
+	background: white !important;
+	border-right: 5px solid #4CC3E3;
+	border-top: 3px solid #4CC3E3;
+	border-bottom: 3px solid #4CC3E3;
 }
 
 .bg-dark {
@@ -710,7 +713,7 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		right: 0;
 		content: '';
-		height: 400px;
+		height: 350px;
 	}
 	.overlay{
 		position: absolute;
@@ -718,7 +721,7 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		right: 0;
 		content: '';
-		height: 400px;
+		height: 350px;
 		background: $primary;
 		opacity: .8;
 
@@ -797,6 +800,7 @@ h1, h2, h3, h4, h5,
 	}
 }
 .testimony-wrap{
+	height: 180px;
 	display: block;
 	position: relative;
 	background: rgba(255,255,255,1);
@@ -908,7 +912,7 @@ h1, h2, h3, h4, h5,
 //PROJECT
 .project{
 	width: 100%;
-	height: 330px;
+	height: 650px;
 	margin-bottom: 0;
 	position: relative;
 	z-index: 0;
