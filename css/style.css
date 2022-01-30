@@ -5508,9 +5508,11 @@ button.bg-dark:focus {
   display: block;
   clear: both;
   content: ""; }
+  @media (max-width: 576px) {
+    .d-none {
+      display: none !important; }
+    }
 
-.d-none {
-  display: none !important; }
 
 .d-inline {
   display: inline !important; }
