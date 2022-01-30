@@ -8513,6 +8513,12 @@ h1, h2, h3, h4, h5,
   border-top: 3px solid #4CC3E3;
   border-bottom: 3px solid #4CC3E3;
 }
+@media (max-width: 576px) {
+  .bg-light {
+    background: white !important;
+    border: none !important;
+  }
+}
 
 .bg-dark {
   background: #191919 !important; }
@@ -8676,14 +8682,14 @@ h1, h2, h3, h4, h5,
     left: 0;
     right: 0;
     content: '';
-    height: 350px; }
+    height: 325px; }
   .testimony-section .overlay {
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     content: '';
-    height: 350px;
+    height: 325px;
     background: #6a7695;
     opacity: .8; }
   .testimony-section .owl-carousel {
@@ -8946,11 +8952,11 @@ textarea.form-control {
     font-size: 24px; }
 
 .ftco-section {
-  padding: 7em 0;
+  padding: 6em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 5em 0; } }
 
 .ftco-no-pt {
   padding-top: 0 !important; }

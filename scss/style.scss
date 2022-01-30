@@ -507,6 +507,13 @@ h1, h2, h3, h4, h5,
 	border-top: 3px solid #4CC3E3;
 	border-bottom: 3px solid #4CC3E3;
 }
+@media (max-width: 576px) {
+  .bg-light {
+    background: white !important;
+    border: none !important;
+  }
+}
+
 
 .bg-dark {
 	background: #191919!important;
@@ -713,7 +720,7 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		right: 0;
 		content: '';
-		height: 350px;
+		height: 325px;
 	}
 	.overlay{
 		position: absolute;
@@ -721,7 +728,7 @@ h1, h2, h3, h4, h5,
 		left: 0;
 		right: 0;
 		content: '';
-		height: 350px;
+		height: 325px;
 		background: $primary;
 		opacity: .8;
 
@@ -1042,7 +1049,7 @@ textarea.form-control {
 
 
 .ftco-section {
-	padding: 7em 0;
+	padding: 6em 0;
 	position: relative;
 	@include media-breakpoint-down(sm){
 		padding: 6em 0;
