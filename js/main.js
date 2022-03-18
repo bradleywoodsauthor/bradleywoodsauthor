@@ -2,16 +2,6 @@
 
 	"use strict";
 
-	$(window).stellar({
-    responsive: true,
-    parallaxBackgrounds: true,
-    parallaxElements: true,
-    horizontalScrolling: false,
-    hideDistantElements: false,
-    scrollProperty: 'scroll'
-  });
-
-
 	var fullHeight = function() {
 
 		$('.js-fullheight').css('height', $(window).height());
@@ -31,11 +21,6 @@
 		}, 1);
 	};
 	loader();
-
-	// Scrollax
-   $.Scrollax();
-
-
 
    // Burger Menu
 	var burgerMenu = function() {
@@ -106,11 +91,11 @@
 			center: true,
 			loop: true,
 			autoplay: true,
-			autoplaySpeed:2000,
+			autoplaySpeed:2200,
 			items:1,
 			margin: 30,
 			stagePadding: 0,
-			nav: false,
+			nav: true,
 			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
 			responsive:{
 				0:{
@@ -144,11 +129,6 @@
 			// $this.find('.dropdown-menu').removeClass('animated-fast fadeInUp show');
 			$this.find('.dropdown-menu').removeClass('show');
 		// }, 100);
-	});
-
-
-	$('#dropdown04').on('show.bs.dropdown', function () {
-	  console.log('show');
 	});
 
 	// scroll
@@ -191,46 +171,13 @@
 	};
 	scrollWindow();
 
-	
-
-	var counter = function() {
-		
-		$('#section-counter, .hero-wrap, .ftco-counter, .ftco-about').waypoint( function( direction ) {
-
-			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-
-				var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
-				$('.number').each(function(){
-					var $this = $(this),
-						num = $this.data('number');
-						console.log(num);
-					$this.animateNumber(
-					  {
-					    number: num,
-					    numberStep: comma_separator_number_step
-					  }, 7000
-					);
-				});
-				
-			}
-
-		} , { offset: '95%' } );
-
-	}
-	counter();
-
-
 	var contentWayPoint = function() {
 		var i = 0;
 		$('.ftco-animate').waypoint( function( direction ) {
-
-			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-				
+			if(direction === 'down' && !$(this.element).hasClass('ftco-animated')) {
 				i++;
-
 				$(this.element).addClass('item-animate');
 				setTimeout(function(){
-
 					$('body .ftco-animate.item-animate').each(function(k){
 						var el = $(this);
 						setTimeout( function () {
@@ -247,54 +194,12 @@
 							el.removeClass('item-animate');
 						},  k * 50, 'easeInOutExpo' );
 					});
-					
-				}, 100);
-				
+				}, 100);	
 			}
-
 		} , { offset: '95%' } );
 	};
 	contentWayPoint();
-
-	// magnific popup
-	$('.image-popup').magnificPopup({
-    type: 'image',
-    closeOnContentClick: true,
-    closeBtnInside: false,
-    fixedContentPos: true,
-    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
-     gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0,1] // Will preload 0 - before current, and 1 after the current image
-    },
-    image: {
-      verticalFit: true
-    },
-    zoom: {
-      enabled: true,
-      duration: 300 // don't foget to change the duration also in CSS
-    }
-  });
-
-  $('.popup-youtube, .popup-vimeo').magnificPopup({
-    disableOn: 700,
-    type: 'iframe',
-    mainClass: 'mfp-fade',
-    removalDelay: 160,
-    preloader: false,
-
-    fixedContentPos: false
-  });
-
-
 })(jQuery);
-
-
-
-
-
-
 
 // this makes the height of each page equal to the height of the window
 // $('.page').css('height', $( window ).height());
@@ -317,7 +222,6 @@
 },500);
     hash($(this).attr('href'));
   });
-  
   
   
   //select all the anchors in the navbar one after another
@@ -352,5 +256,3 @@ hash = function(h){
     location.hash = h;
   }
 }
-
-
