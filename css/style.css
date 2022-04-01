@@ -59,6 +59,10 @@ body {
   text-align: left;
   background-color: #fff; }
 
+.title {
+  color: #6a7695;
+}
+
 [tabindex="-1"]:focus {
   outline: 0 !important; }
 
